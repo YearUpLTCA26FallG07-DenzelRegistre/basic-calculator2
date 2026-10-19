@@ -31,16 +31,20 @@ public class Main {
 
         if (operation.equals("A")  || operation.equals("a") ){
             result = firstNum + secondNum;
+            System.out.println("Your answer is : " + result);
         } else if (operation.equals("S")  || operation.equals("s") ) {
             result = firstNum - secondNum;
+            System.out.println("Your answer is : " + result);
         } else if (operation.equals("M")  || operation.equals("m") ) {
             result = firstNum * secondNum;
+            System.out.println("Your answer is : " + result);
         } else if (operation.equals("D")  || operation.equals("d") ) {
             result = firstNum / secondNum;
+            System.out.println("Your answer is : " + result);
         } else {
             System.out.println("Error");
         }
-        System.out.println("Your answer is : " + result);
+       
 
 
     }
